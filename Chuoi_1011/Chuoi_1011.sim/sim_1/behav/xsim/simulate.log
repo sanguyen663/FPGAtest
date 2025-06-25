@@ -1,0 +1,11 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+               10000 | 0 | 1 | 0 | 0
+               25000 | 1 | 1 | 1 | 0
+               45000 | 1 | 1 | 0 | 0
+               60000 | 0 | 1 | 1 | 0
+               70000 | 0 | 1 | 1 | 0
+               85000 | 1 | 1 | 0 | 0
+              110000 | 0 | 1 | 1 | 0
+              125000 | 1 | 1 | 0 | 0
+$finish called at time : 145 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/Chuoi_1011/Chuoi_1011.srcs/sim_1/new/chuoi_1011_tb.v" Line 60

@@ -1,0 +1,654 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Mar 10 08:53:33 2025
+# Process ID: 8120
+# Current directory: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10384 C:\TaiLieuHocTap\Nam3k2\FPGA\nt2ss\project_2.xpr
+# Log file: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/vivado.log
+# Journal file: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$time | 0 | 1 | 1 |   0 | 1 0
+$finish called at time : 209 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 56
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 872.426 ; gain = 28.445
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$time | 0 | 1 | 1 |   0 | 1 0
+$finish called at time : 209 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 56
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 888.641 ; gain = 0.000
+close [ open C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss_top.v w ]
+add_files C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss_top.v
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$time | 0 | 1 | 0 |   0 | 1 0
+$finish called at time : 129 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 905.066 ; gain = 0.000
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$time | 0 | 1 | 0 |   0 | 1 0
+$finish called at time : 130 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$time | 0 | 1 | 0 |   0 | 1 0
+$finish called at time : 210 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$time | 0 | 1 | 0 |   0 | x 0
+$finish called at time : 210 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 72
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Received byte: 00
+Received byte: 00
+Received byte: 00
+$finish called at time : 370 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 88
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Received byte: 00
+Received byte: 00
+Received byte: 00
+$finish called at time : 370 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 88
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'nt2ss_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj nt2ss_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+"xelab -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 65025fb48113497ea04302d0ee382077 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot nt2ss_tb_behav xil_defaultlib.nt2ss_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.nt2ss
+Compiling module xil_defaultlib.nt2ss_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot nt2ss_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "nt2ss_tb_behav -key {Behavioral:sim_1:Functional:nt2ss_tb} -tclbatch {nt2ss_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+source nt2ss_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Received byte: 00
+Received byte: 00
+Received byte: 00
+$finish called at time : 370 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 88
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'nt2ss_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+create_ip -name ila -vendor xilinx.com -library ip -version 6.2 -module_name ila_0 -dir c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip
+set_property -dict [list CONFIG.C_PROBE4_WIDTH {8} CONFIG.C_PROBE3_WIDTH {8} CONFIG.C_NUM_OF_PROBES {5} CONFIG.C_EN_STRG_QUAL {0} CONFIG.C_ADV_TRIGGER {false} CONFIG.C_PROBE4_MU_CNT {2} CONFIG.C_PROBE3_MU_CNT {2} CONFIG.C_PROBE2_MU_CNT {2} CONFIG.C_PROBE1_MU_CNT {2} CONFIG.C_PROBE0_MU_CNT {2} CONFIG.ALL_PROBE_SAME_MU_CNT {2}] [get_ips ila_0]
+generate_target {instantiation_template} [get_files c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+update_compile_order -fileset sources_1
+generate_target all [get_files  c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci]
+launch_runs -jobs 6 ila_0_synth_1
+[Mon Mar 10 10:27:30 2025] Launched ila_0_synth_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.ip_user_files -ipstatic_source_dir C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/modelsim} {questa=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/questa} {riviera=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/riviera} {activehdl=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Mon Mar 10 10:58:18 2025] Launched synth_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:23 . Memory (MB): peak = 1056.289 ; gain = 0.000
+add_files {C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/synth_2/ss2nt_top.dcp C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_1/ss2nt_top_opt.dcp C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_2/ss2nt_top_routed.dcp C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_2/ss2nt_top_placed.dcp C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.srcs/sources_1/new/ss2nt.v C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.sim/sim_1/behav/xsim/glbl.v C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.srcs/sim_1/new/ss2nt_tb.v C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_1/ss2nt_top_placed.dcp C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_1/ss2nt_top_routed.dcp C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/synth_1/ss2nt_top.dcp C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.srcs/sources_1/new/ss2nt_top.v C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_2/ss2nt_top_opt.dcp}
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1
+
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 6
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'ss2nt_top' found in library 'xil_defaultlib'
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'ss2nt_top' found in library 'xil_defaultlib'
+[Mon Mar 10 11:03:12 2025] Launched synth_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1069.832 ; gain = 0.000
+launch_runs impl_1 -jobs 6
+[Mon Mar 10 11:03:43 2025] Launched impl_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Mar 10 11:13:53 2025] Launched synth_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1/runme.log
+[Mon Mar 10 11:13:53 2025] Launched impl_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Mar 10 11:17:19 2025] Launched synth_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1/runme.log
+[Mon Mar 10 11:17:19 2025] Launched impl_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/impl_1/runme.log
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+set_property -dict [list CONFIG.C_EN_STRG_QUAL {1} CONFIG.C_ADV_TRIGGER {true}] [get_ips ila_0]
+generate_target all [get_files  c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'ila_0'...
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc'
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'ila_0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'ila_0'...
+catch { config_ip_cache -export [get_ips -all ila_0] }
+export_ip_user_files -of_objects [get_files c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci] -no_script -sync -force -quiet
+reset_run ila_0_synth_1
+launch_runs -jobs 6 ila_0_synth_1
+[Mon Mar 10 11:19:36 2025] Launched ila_0_synth_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/ila_0_synth_1/runme.log
+export_simulation -of_objects [get_files c:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/ip/ila_0/ila_0.xci] -directory C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.ip_user_files/sim_scripts -ip_user_files_dir C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.ip_user_files -ipstatic_source_dir C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/modelsim} {questa=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/questa} {riviera=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/riviera} {activehdl=C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4331] Invalid usage of property - Setting value property on PARAM_VALUE.ALL_PROBE_SAME_MU is not allowed in procedure update_gui_for_PARAM_VALUE.C_ADV_TRIGGER
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Mon Mar 10 11:36:13 2025] Launched synth_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/synth_1/runme.log
+[Mon Mar 10 11:36:13 2025] Launched impl_1...
+Run output will be captured here: C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2019.1
+  **** Build date : May 24 2019 at 15:13:31
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210512180081
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210512180081.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Common 17-39] 'open_hw_target' failed due to earlier errors.
+create_hw_cfgmem -hw_device [lindex [get_hw_devices xc7a35t_0] 0] [lindex [get_cfgmem_parts {28f00am29ew-bpi-x16}] 0]
+set_property PROGRAM.BLANK_CHECK  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.ERASE  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CFG_PROGRAM  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.VERIFY  1 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+set_property PROGRAM.CHECKSUM  0 [ get_property PROGRAM.HW_CFGMEM [lindex [get_hw_devices xc7a35t_0] 0]]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/impl_1/nt2ss_top.ltx} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/impl_1/nt2ss_top.ltx} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.runs/impl_1/nt2ss_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-2302] Device xc7a35t (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"my_ila"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {finish} }
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {parallel_data} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"my_ila"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2025-Mar-10 11:50:25
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"my_ila"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7a35t_0] -filter {CELL_NAME=~"my_ila"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2025-Mar-10 11:50:25
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.hw/backup/hw_ila_data_1.ila. Use Tcl command 'read_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210512180081
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 10 11:52:55 2025...

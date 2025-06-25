@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May 12 16:21:51 2025
+# Process ID: 14552
+# Current directory: C:/TaiLieuHocTap/Nam3k2/FPGA/SPI_Master_Max7219/SPI.runs/impl_1
+# Command line: vivado.exe -log spi_master.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source spi_master.tcl -notrace
+# Log file: C:/TaiLieuHocTap/Nam3k2/FPGA/SPI_Master_Max7219/SPI.runs/impl_1/spi_master.vdi
+# Journal file: C:/TaiLieuHocTap/Nam3k2/FPGA/SPI_Master_Max7219/SPI.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source spi_master.tcl -notrace

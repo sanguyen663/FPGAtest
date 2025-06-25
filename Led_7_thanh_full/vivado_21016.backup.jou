@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 20 15:49:48 2025
+# Process ID: 21016
+# Current directory: C:/TaiLieuHocTap/Nam3k2/FPGA/Led_7_thanh
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19264 C:\TaiLieuHocTap\Nam3k2\FPGA\Led_7_thanh\Led_7_thanh.xpr
+# Log file: C:/TaiLieuHocTap/Nam3k2/FPGA/Led_7_thanh/vivado.log
+# Journal file: C:/TaiLieuHocTap/Nam3k2/FPGA/Led_7_thanh\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/TaiLieuHocTap/Nam3k2/FPGA/Led_7_thanh/Led_7_thanh.xpr
+update_compile_order -fileset sources_1

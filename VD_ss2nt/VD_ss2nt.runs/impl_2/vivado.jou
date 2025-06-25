@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Feb 28 11:16:09 2025
+# Process ID: 3776
+# Current directory: C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_2
+# Command line: vivado.exe -log ss2nt_top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source ss2nt_top.tcl -notrace
+# Log file: C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_2/ss2nt_top.vdi
+# Journal file: C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source ss2nt_top.tcl -notrace

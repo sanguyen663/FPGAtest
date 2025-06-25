@@ -1,0 +1,12 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+in = 0000 , out = 1000000
+in = 0011 , out = 0110000
+in = 0110 , out = 0000010
+in = 0111 , out = 1111000
+in = 1001 , out = 0010000
+in = 1010 , out = 0001000
+in = 1100 , out = 1000110
+in = 1110 , out = 0000110
+in = 1111 , out = 0001110
+$finish called at time : 90 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/Led_7_thanh/Led_7_thanh.srcs/sim_1/new/led7_tb.v" Line 43

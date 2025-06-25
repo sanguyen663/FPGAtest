@@ -1,0 +1,18 @@
+set_property IOSTANDARD LVCMOS33 [get_ports i_Clock]
+set_property IOSTANDARD LVCMOS33 [get_ports i_Rx_Serial]
+set_property IOSTANDARD LVCMOS33 [get_ports o_LED[0]]
+set_property IOSTANDARD LVCMOS33 [get_ports o_LED[1]]
+set_property IOSTANDARD LVCMOS33 [get_ports o_LED[2]]
+set_property IOSTANDARD LVCMOS33 [get_ports o_LED[3]]
+set_property IOSTANDARD LVCMOS33 [get_ports o_Tx_Serial]
+set_property IOSTANDARD LVCMOS33 [get_ports switch]
+
+
+set_property PACKAGE_PIN Y18 [get_ports i_Clock]
+set_property PACKAGE_PIN G15 [get_ports i_Rx_Serial]
+set_property PACKAGE_PIN F19 [get_ports o_LED[0]]
+set_property PACKAGE_PIN E21 [get_ports o_LED[1]]
+set_property PACKAGE_PIN D20 [get_ports o_LED[2]]
+set_property PACKAGE_PIN C20 [get_ports o_LED[3]]
+set_property PACKAGE_PIN G16 [get_ports o_Tx_Serial]
+set_property PACKAGE_PIN L13 [get_ports switch]

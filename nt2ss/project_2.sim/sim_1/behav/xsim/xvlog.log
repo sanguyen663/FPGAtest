@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sources_1/new/nt2ss.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nt2ss_tb

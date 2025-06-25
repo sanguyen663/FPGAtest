@@ -1,0 +1,87 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Mon May 12 09:25:41 2025
+| Host         : LAPTOP-AGQD4J52 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file i2c_lcd_top_control_sets_placed.rpt
+| Design       : i2c_lcd_top
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     9 |
+|    Minimum number of control sets                        |     9 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    29 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     9 |
+| >= 0 to < 4        |     1 |
+| >= 4 to < 6        |     4 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              41 |           18 |
+| No           | No                    | Yes                    |               9 |            3 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              25 |            9 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------+-------------------------------+------------------------------------------+------------------+----------------+
+|        Clock Signal        |         Enable Signal         |             Set/Reset Signal             | Slice Load Count | Bel Load Count |
++----------------------------+-------------------------------+------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG             | i2c_inst/E[0]                 | rst_n_IBUF                               |                1 |              3 |
+|  clk_IBUF_BUFG             | i2c_inst/bit_count[3]_i_1_n_1 | i2c_inst/FSM_sequential_state[3]_i_3_n_1 |                2 |              4 |
+|  clk_IBUF_BUFG             | i2c_inst/state                | i2c_inst/FSM_sequential_state[3]_i_3_n_1 |                1 |              4 |
+|  lcd_rs_reg_i_2_n_1        |                               |                                          |                1 |              4 |
+|  char_index_reg[4]_i_2_n_1 |                               |                                          |                2 |              5 |
+|  clk_IBUF_BUFG             | i2c_inst/data_reg[6]_i_1_n_1  | i2c_inst/FSM_sequential_state[3]_i_3_n_1 |                2 |              6 |
+|  clk_IBUF_BUFG             | i2c_inst/shift_reg[7]_i_1_n_1 | i2c_inst/FSM_sequential_state[3]_i_3_n_1 |                3 |              8 |
+|  clk_IBUF_BUFG             |                               | i2c_inst/FSM_sequential_state[3]_i_3_n_1 |                3 |              9 |
+|  n_0_12_BUFG               |                               |                                          |               15 |             32 |
++----------------------------+-------------------------------+------------------------------------------+------------------+----------------+
+
+

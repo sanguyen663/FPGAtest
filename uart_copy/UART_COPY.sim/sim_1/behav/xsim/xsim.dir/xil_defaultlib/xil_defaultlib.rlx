@@ -1,0 +1,8 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/TaiLieuHocTap/Nam3k2/FPGA/uart_copy/UART_COPY.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/TaiLieuHocTap/Nam3k2/FPGA/uart_copy/UART_COPY.srcs/sim_1/new/uart_tb.v,1744600632,verilog,,,,tb_top_module,,,,,,,,
+C:/TaiLieuHocTap/Nam3k2/FPGA/uart_copy/UART_COPY.srcs/sources_1/new/UART_RX.v,1744601268,verilog,,C:/TaiLieuHocTap/Nam3k2/FPGA/uart_copy/UART_COPY.srcs/sources_1/new/UART_TEST.v,,uart_rx,,,,,,,,
+C:/TaiLieuHocTap/Nam3k2/FPGA/uart_copy/UART_COPY.srcs/sources_1/new/UART_TEST.v,1744599952,verilog,,C:/TaiLieuHocTap/Nam3k2/FPGA/uart_copy/UART_COPY.srcs/sim_1/new/uart_tb.v,,top_module,,,,,,,,

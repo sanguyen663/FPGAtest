@@ -1,0 +1,4 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+$time | 0 | 1 | 0 |   00
+$finish called at time : 280 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/VD_ss2nt/VD_ss2nt.srcs/sim_1/new/ss2nt_tb.v" Line 81

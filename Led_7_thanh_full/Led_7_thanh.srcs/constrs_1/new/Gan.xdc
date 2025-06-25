@@ -1,0 +1,41 @@
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports up]
+set_property IOSTANDARD LVCMOS33 [get_ports mode]
+set_property IOSTANDARD LVCMOS33 [get_ports switch]
+
+set_property IOSTANDARD LVCMOS33 [get_ports out[0]];
+set_property IOSTANDARD LVCMOS33 [get_ports out[1]];
+set_property IOSTANDARD LVCMOS33 [get_ports out[2]];
+set_property IOSTANDARD LVCMOS33 [get_ports out[3]];
+set_property IOSTANDARD LVCMOS33 [get_ports out[4]];
+set_property IOSTANDARD LVCMOS33 [get_ports out[5]];
+set_property IOSTANDARD LVCMOS33 [get_ports out[6]];
+set_property IOSTANDARD LVCMOS33 [get_ports dp];
+set_property IOSTANDARD LVCMOS33 [get_ports s_led[0]];
+set_property IOSTANDARD LVCMOS33 [get_ports s_led[1]];
+set_property IOSTANDARD LVCMOS33 [get_ports s_led[2]];
+set_property IOSTANDARD LVCMOS33 [get_ports s_led[3]];
+set_property IOSTANDARD LVCMOS33 [get_ports s_led[4]];
+set_property IOSTANDARD LVCMOS33 [get_ports s_led[5]];
+
+set_property PACKAGE_PIN J5 [get_ports out[0]];
+set_property PACKAGE_PIN M3 [get_ports out[1]];
+set_property PACKAGE_PIN J6 [get_ports out[2]];
+set_property PACKAGE_PIN H5 [get_ports out[3]];
+set_property PACKAGE_PIN G4 [get_ports out[4]];
+set_property PACKAGE_PIN K6 [get_ports out[5]];
+set_property PACKAGE_PIN K3 [get_ports out[6]];
+set_property PACKAGE_PIN H4 [get_ports dp];
+set_property PACKAGE_PIN M2 [get_ports s_led[0]];
+set_property PACKAGE_PIN N4 [get_ports s_led[1]];
+set_property PACKAGE_PIN L5 [get_ports s_led[2]];
+set_property PACKAGE_PIN L4 [get_ports s_led[3]];
+set_property PACKAGE_PIN M16 [get_ports s_led[4]];
+set_property PACKAGE_PIN M17 [get_ports s_led[5]];
+
+set_property PACKAGE_PIN Y18 [get_ports clk]
+set_property PACKAGE_PIN F20 [get_ports rst_n]
+set_property PACKAGE_PIN K14 [get_ports up]
+set_property PACKAGE_PIN K13 [get_ports mode]
+set_property PACKAGE_PIN L13 [get_ports switch]

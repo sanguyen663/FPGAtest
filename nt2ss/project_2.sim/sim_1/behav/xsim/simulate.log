@@ -1,0 +1,6 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Received byte: 00
+Received byte: 00
+Received byte: 00
+$finish called at time : 370 ns : File "C:/TaiLieuHocTap/Nam3k2/FPGA/nt2ss/project_2.srcs/sim_1/new/nt2ss_tb.v" Line 88

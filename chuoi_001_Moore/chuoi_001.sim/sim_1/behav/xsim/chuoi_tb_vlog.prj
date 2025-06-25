@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../chuoi_001.srcs/sources_1/new/chuoi.v" \
+"../../../../chuoi_001.srcs/sim_1/new/chuoi_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
