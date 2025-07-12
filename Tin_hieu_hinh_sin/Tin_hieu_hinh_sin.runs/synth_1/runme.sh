@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.runs/synth_1'
+HD_PWD='C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

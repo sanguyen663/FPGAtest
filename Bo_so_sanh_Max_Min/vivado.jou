@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Jun 26 22:12:47 2025
+# Process ID: 10792
+# Current directory: C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19532 C:\Users\VICTUS\Desktop\FPGAtest\Bo_so_sanh_Max_Min\Bo_so_sanh_Max.xpr
+# Log file: C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min/vivado.log
+# Journal file: C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min/Bo_so_sanh_Max.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_simulation
+source Max_tb.tcl
+close_sim

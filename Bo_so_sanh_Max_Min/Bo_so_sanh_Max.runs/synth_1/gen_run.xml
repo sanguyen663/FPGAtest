@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1741591643">
+<GenRun Id="synth_1" LaunchPart="xc7a35tfgg484-2" LaunchTime="1750950818">
   <File Type="PA-TCL" Name="max.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="max_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="max_reports.tcl"/>
@@ -37,9 +37,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

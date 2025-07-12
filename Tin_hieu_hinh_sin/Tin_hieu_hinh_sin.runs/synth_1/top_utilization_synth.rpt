@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sun Mar 30 23:04:59 2025
-| Host         : LAPTOP-AGQD4J52 running 64-bit major release  (build 9200)
+| Date         : Sun Jun 29 22:36:25 2025
+| Host         : DESKTOP-HQCDAV2 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
 | Design       : top
 | Device       : 7a35tfgg484-2
@@ -56,8 +56,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 1     |          Yes |           - |          Set |
 | 39    |          Yes |           - |        Reset |
-| 1     |          Yes |         Set |            - |
-| 67    |          Yes |       Reset |            - |
+| 2     |          Yes |         Set |            - |
+| 66    |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -149,7 +149,7 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |   67 |        Flop & Latch |
+| FDRE     |   66 |        Flop & Latch |
 | LUT2     |   63 |                 LUT |
 | LUT6     |   41 |                 LUT |
 | LUT4     |   40 |                 LUT |
@@ -161,7 +161,7 @@ Table of Contents
 | LUT3     |    4 |                 LUT |
 | IBUF     |    4 |                  IO |
 | LUT1     |    3 |                 LUT |
-| FDSE     |    1 |        Flop & Latch |
+| FDSE     |    2 |        Flop & Latch |
 | FDPE     |    1 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+

@@ -2,27 +2,13 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Mon May 19 23:41:49 2025
-# Process ID: 19092
-# Current directory: C:/TaiLieuHocTap/Nam3k2/FPGA/SongTamGiac
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19028 C:\TaiLieuHocTap\Nam3k2\FPGA\SongTamGiac\SongTamGiac.xpr
-# Log file: C:/TaiLieuHocTap/Nam3k2/FPGA/SongTamGiac/vivado.log
-# Journal file: C:/TaiLieuHocTap/Nam3k2/FPGA/SongTamGiac\vivado.jou
+# Start of session at: Sun Jun 29 23:16:02 2025
+# Process ID: 13616
+# Current directory: C:/Users/VICTUS/Desktop/FPGAtest/SongTamGiac
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2612 C:\Users\VICTUS\Desktop\FPGAtest\SongTamGiac\SongTamGiac.xpr
+# Log file: C:/Users/VICTUS/Desktop/FPGAtest/SongTamGiac/vivado.log
+# Journal file: C:/Users/VICTUS/Desktop/FPGAtest/SongTamGiac\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/TaiLieuHocTap/Nam3k2/FPGA/SongTamGiac/SongTamGiac.xpr
+open_project C:/Users/VICTUS/Desktop/FPGAtest/SongTamGiac/SongTamGiac.xpr
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-wait_on_run synth_1
-launch_simulation
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-wait_on_run synth_1
-launch_simulation
-source SongTamGiac_TB.tcl
-run 10 us
-run 10 us
-run 10 us
-run 10 us
-close_sim

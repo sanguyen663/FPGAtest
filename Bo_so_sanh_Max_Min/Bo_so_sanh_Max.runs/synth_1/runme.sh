@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/TaiLieuHocTap/Nam3k2/FPGA/Bo_so_sanh_Max/Bo_so_sanh_Max.runs/synth_1'
+HD_PWD='C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min/Bo_so_sanh_Max.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

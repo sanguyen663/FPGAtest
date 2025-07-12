@@ -1,4 +1,6 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/Bo_so_sanh_Max/Bo_so_sanh_Max.srcs/sources_1/new/max.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min/Bo_so_sanh_Max.srcs/sources_1/new/max.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module max
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/TaiLieuHocTap/Nam3k2/FPGA/Bo_so_sanh_Max/Bo_so_sanh_Max.srcs/sim_1/new/Max_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min/Bo_so_sanh_Max.srcs/sim_1/new/Max_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Max_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/VICTUS/Desktop/FPGAtest/Bo_so_sanh_Max_Min/Bo_so_sanh_Max.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

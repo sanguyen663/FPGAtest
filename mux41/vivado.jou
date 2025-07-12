@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun 30 11:08:34 2025
+# Process ID: 20704
+# Current directory: C:/Users/VICTUS/Desktop/FPGAtest/mux41
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3832 C:\Users\VICTUS\Desktop\FPGAtest\mux41\mux41.xpr
+# Log file: C:/Users/VICTUS/Desktop/FPGAtest/mux41/vivado.log
+# Journal file: C:/Users/VICTUS/Desktop/FPGAtest/mux41\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/VICTUS/Desktop/FPGAtest/mux41/mux41.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_simulation
+source tb_4to1_mux.tcl

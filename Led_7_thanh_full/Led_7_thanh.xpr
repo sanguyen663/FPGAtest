@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="C:/TaiLieuHocTap/Nam3k2/FPGA/Led_7_thanh_full/Led_7_thanh.xpr">
+<Project Version="7" Minor="40" Path="C:/Users/VICTUS/Desktop/FPGAtest/Led_7_thanh_full/Led_7_thanh.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="8d798dd9014141eea068f4508dbd8af8"/>

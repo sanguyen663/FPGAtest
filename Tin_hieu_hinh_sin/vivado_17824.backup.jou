@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Jun 23 20:50:52 2025
+# Process ID: 17824
+# Current directory: C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18088 C:\TaiLieuHocTap\Nam3k2\FPGA\Tin_hieu_hinh_sin\Tin_hieu_hinh_sin.xpr
+# Log file: C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/vivado.log
+# Journal file: C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.xpr
+update_compile_order -fileset sources_1

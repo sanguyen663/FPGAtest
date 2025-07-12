@@ -23,22 +23,22 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.cache/wt [current_project]
-set_property parent.project_path C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.cache/wt [current_project]
+set_property parent.project_path C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.cache/ip [current_project]
+set_property ip_output_repo c:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/new/sine_wave_generator.v
-  C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/new/top.v
+  C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/new/sine_wave_generator.v
+  C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/new/top.v
 }
-read_ip -quiet C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_0.xci
-set_property used_in_synthesis false [get_files -all c:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all c:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all c:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc]
-set_property used_in_implementation false [get_files -all c:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc]
+read_ip -quiet C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_0.xci
+set_property used_in_synthesis false [get_files -all c:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/sources_1/ip/ila_0/ila_0_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -48,8 +48,8 @@ set_property used_in_implementation false [get_files -all c:/TaiLieuHocTap/Nam3k
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/constrs_1/new/top.xdc
-set_property used_in_implementation false [get_files C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/constrs_1/new/top.xdc]
+read_xdc C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/constrs_1/new/top.xdc
+set_property used_in_implementation false [get_files C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.srcs/constrs_1/new/top.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

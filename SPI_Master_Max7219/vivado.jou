@@ -2,13 +2,13 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Mon May 12 23:20:01 2025
-# Process ID: 1536
-# Current directory: C:/TaiLieuHocTap/Nam3k2/FPGA/SPI_Master_Max7219
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3508 C:\TaiLieuHocTap\Nam3k2\FPGA\SPI_Master_Max7219\SPI.xpr
-# Log file: C:/TaiLieuHocTap/Nam3k2/FPGA/SPI_Master_Max7219/vivado.log
-# Journal file: C:/TaiLieuHocTap/Nam3k2/FPGA/SPI_Master_Max7219\vivado.jou
+# Start of session at: Sat Jun 28 22:43:29 2025
+# Process ID: 23508
+# Current directory: C:/Users/VICTUS/Desktop/FPGAtest/SPI_Master_Max7219
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2792 C:\Users\VICTUS\Desktop\FPGAtest\SPI_Master_Max7219\SPI.xpr
+# Log file: C:/Users/VICTUS/Desktop/FPGAtest/SPI_Master_Max7219/vivado.log
+# Journal file: C:/Users/VICTUS/Desktop/FPGAtest/SPI_Master_Max7219\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/TaiLieuHocTap/Nam3k2/FPGA/SPI_Master_Max7219/SPI.xpr
+open_project C:/Users/VICTUS/Desktop/FPGAtest/SPI_Master_Max7219/SPI.xpr
 update_compile_order -fileset sources_1

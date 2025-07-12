@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="40" Path="C:/TaiLieuHocTap/Nam3k2/FPGA/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.xpr">
+<Project Version="7" Minor="40" Path="C:/Users/VICTUS/Desktop/FPGAtest/Tin_hieu_hinh_sin/Tin_hieu_hinh_sin.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="7ae55b668adf49f0a697913e68e90efe"/>

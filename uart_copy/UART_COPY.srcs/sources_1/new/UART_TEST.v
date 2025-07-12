@@ -86,15 +86,15 @@ module uart_led_controller (
     
         case(sel)
             3'd0: begin
-                STRING <= " Xin Chao\n\r"; // 8 ký tu, moi ký tu 8 bit
+                STRING <= "Xin Chao\n\r"; // 8 ký tu, moi ký tu 8 bit
                 STRING_LEN <= 11;
             end
             3'd1: begin
-                STRING <= " Nhat Nam\n\r"; // 8 ký tu, moi ký tu 8 bit
+                STRING <= "Hoang Sa\n\r"; // 8 ký tu, moi ký tu 8 bit
                 STRING_LEN <= 11;
             end
             3'd2: begin
-                STRING <= " TDHCHK58\n\r"; // 8 ký tu, moi ký tu 8 bit
+                STRING <= "TDHCHK58\n\r"; // 8 ký tu, moi ký tu 8 bit
                 STRING_LEN <= 11;
             end
             default: begin
